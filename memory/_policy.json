@@ -1,0 +1,15 @@
+{
+  "compression": {
+    "enabled": true,
+    "max_recent_matters": 20,
+    "strategy": "summarize"
+  },
+  "retention": {
+    "pinned": "forever",
+    "topics": "forever",
+    "timeline": {
+      "recent": "90d",
+      "archive_after": "180d"
+    }
+  }
+}

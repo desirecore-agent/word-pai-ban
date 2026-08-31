@@ -1,0 +1,41 @@
+{
+  "$schema": "https://desirecore.net/schemas/agentfs/v1/agent-config.json",
+  "version": "0.1.0",
+  "llm": {
+    "routingMode": "smart",
+    "smart": {
+      "profile": {
+        "tier": "flagship"
+      }
+    },
+    "maxRetryDelayMs": 32000
+  },
+  "heartbeat": {
+    "enabled": false
+  },
+  "session_mode": {
+    "manual": false
+  },
+  "env": {
+    "enabled": true,
+    "includeWeekday": true,
+    "includeLocalTime": true,
+    "includeSessionStart": true,
+    "includeOs": true,
+    "includeRuntime": true,
+    "includeManagedRuntimes": true
+  },
+  "mcp_servers": {},
+  "capabilities": [],
+  "trigger_patterns": [],
+  "accepts_handoff": true,
+  "accepts_messages": true,
+  "max_concurrent_sessions": 3,
+  "avatar": {
+    "char": "W",
+    "color": "green"
+  },
+  "id": "d9e305f7-736d-469c-acac-b61721b3d599",
+  "name": "Word 排版",
+  "description": "专注 Word 文档排版与美化：标题层级、样式规范、页眉页脚、目录生成与 docx 格式处理。"
+}
